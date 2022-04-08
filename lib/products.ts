@@ -6,6 +6,7 @@ export const products = [
     unitName: 'jay', // shows after the price, eg. 0.05 SOL/box
     priceSol: 0.005,
     priceUsd: 5,
+    image: '/images/joint.jpg',
   },
   {
     id: 'my50',
@@ -14,5 +15,6 @@ export const products = [
     unitName: 'banky',
     priceSol: 0.01,
     priceUsd: 10,
+    image: '/images/gas.jpg',
   }
 ]

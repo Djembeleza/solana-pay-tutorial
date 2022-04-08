@@ -3,6 +3,7 @@ import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 import CouponBook from '../components/CouponBook'
 import Products from '../components/Products'
 import SiteHeading from '../components/SiteHeading'
+import Head from 'next/head'
 
 export default function HomePage() {
   // We get the public key of the connected wallet, if there is one
@@ -10,6 +11,9 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col gap-8 max-w-4xl items-stretch m-auto pt-24">
+      <Head>
+        <meta name='description' content='The best herb shop powered by blockchain technology' />
+      </Head>
       <SiteHeading>Tsa Felo</SiteHeading>
 
       {/* We add the Solana wallet connect button */}
