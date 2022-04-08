@@ -31,8 +31,8 @@ export default function Checkout() {
     splToken: usdcAddress,
     amount,
     reference,
-    label: "Cookies Inc",
-    message: "Thanks for your order! 🍪",
+    label: "Tsa Felo",
+    message: "Thanks for your order! 🌿",
   }
 
   // Encode the params into the format shown
